@@ -1,16 +1,103 @@
-# React + Vite
+# 🤖 Gemini Clone (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Gemini AI Clone** built using **React.js** and **Google Generative AI API**.
+This project allows users to send prompts and get AI-generated responses, similar to Gemini / ChatGPT.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 💬 Chat with AI (Gemini API)
+* ⚡ Fast responses
+* 🧠 Context-based prompt handling
+* 🕘 Recent prompts history
+* 🎨 Clean and responsive UI
+* 🔄 Real-time interaction
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* CSS
+* Google Generative AI API
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│── config/
+│   └── gemini.js   # API integration
+│── context/
+│   └── Context.jsx # Global state management
+│── assets/
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```
+VITE_API_KEY=My_api_key_here
+```
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/gemini-clone.git
+```
+
+2. Navigate to project folder:
+
+```
+cd gemini-clone
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start development server:
+
+```
+npm run dev
+```
+
+---
+
+
+
+## 📌 Future Improvements
+
+* Chat history storage
+
+* Better UI animations
+* Multiple conversation threads
+
+---
+
+## 🙌 Acknowledgements
+
+* Google Generative AI API
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
